@@ -7,3 +7,6 @@ def fibonacci(num: int) -> int:
         a, b = a+b, a
 
         return a
+
+
+fibonacci(93)
