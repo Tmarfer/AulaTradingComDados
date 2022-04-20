@@ -6,6 +6,8 @@ def fibonacci(num: int) -> int:
        
         a, b = a+b, a
 
-        return a
+        return a  
         
-fibonacci(93) 
+
+result = fibonacci(93) 
+print ("foi executado")
