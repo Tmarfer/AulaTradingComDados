@@ -1,0 +1,24 @@
+Comando git: 
+----------------------------
+    no GIT bash do 
+    1-Entra na pasta cd "caminho da pasta" com as barras que encadeiam o caminho na posição "/";
+    2-$ git init
+    3-$ git config --global user.email tmarfer@gmail.com
+    4-$ git config --global user.name Tmarfer
+    --------------no VSCode: ---------
+    5- no terminal seleciona o git bash no cano direito sperior(sinal de +);
+    6- $ git add "fibonacci.py"
+    7- $ git commit -m "Quarta Versão TCU"
+    8- $ git push  (vai gerar um erro normal)
+    9- $ git remote add origin  https://github.com/Tmarfer/AulaTradingComDados (pega essa url no github)
+    10-$ git push --set-upstream origin master 
+    ----problema no passo 10 por questão de commits em máquinas diferentes pode ser resolvido ---
+    10.1-git pull origin master --allow-unrelated-histories (fez uma vez pode ir direto para o push)
+                                                            (libera o git para fazer o merge)
+    10.2-git push --set-upstream origin master
+
+
+------------------------------------------
+no Gitbash
+    11- $ git reset --hard add9811 (volta a versão e o status da past na época da versão que você recuperou
+    ou seja, pode afetar programas que não necessáriamente vc queira), copiar esse código 
